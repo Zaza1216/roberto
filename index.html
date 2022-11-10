@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown menus</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="first--screen">
+        <div class="number--email">
+            <div class="number">
+                <i class="fa-solid fa-phone"></i>
+                <p>(123) 456-789-1230</p>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <p>info.colorlib@gmail.com</p>
+            </div>
+        </div>
+        <div class="media">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+    <div class="second--screen">
+        <div class="title">
+            <img src="https://preview.colorlib.com/theme/roberto/img/core-img/logo.png" alt="title">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./rooms.html">Rooms</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li class="dropdown">
+                    <a href="./pages.html">Pages<i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="dropdown--content">
+                        <ul>
+                            <li><a href="./home.html">Home</a></li>
+                            <li><a href="./rooms.html">Rooms</a></li>
+                            <li><a href="./single.html">Single Rooms</a></li>
+                            <li><a href="./about.html">About us</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./single.html">Single blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+
+
+                            <li class="sub--dropdown">
+                                <a href="./dropdown.html">Dropdown</a>
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <div class="sub--dropdown--content">
+                                    <ul>
+                                        <li>Dropdown item</li>
+                                        <li>Dropdown item</li>
+                                        <li>Dropdown item</li>
+                                        <li>Dropdown item</li>
+                                    </ul>
+                                </div>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li class="search"><i class="fa-solid fa-magnifying-glass"></i></li>
+            </ul>
+        </div>
+        <div class="second--button">
+            <button><a href="./book.html">Book now</a></button>
+        </div>
+    </div>
+    <div class="third--screen" id="third--screen">
+        <div class="third--text">
+            <div class="little">
+                <p>HOTEL & RESORT</p>
+            </div>
+            <div class="big">
+                <p>Welcome to Roberto</p>
+            </div>
+            <button>Discover now</button>
+        </div>
+        <div class="forms">
+            <form action="/action_page.php" class="checkin">
+                <label for="checkin">Check in</label>
+                <input type="date" id="checkin" name="checkin">
+            </form>
+            <form action="/action_page.php" class="checkout">
+                <label for="checkout">Check in</label>
+                <input type="date" id="checkout" name="checkout">
+            </form>
+            <form action="/action_page.php" class="room">
+                <label for="room">Room</label>
+                <select id="room" name="room">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                </select>
+            </form>
+            <form action="/action_page.php" class="adult">
+                <label for="adult">Adult</label>
+                <select id="adult" name="adult">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                </select>
+            </form>
+            <form action="/action_page.php" class="child">
+                <label for="child">Children</label>
+                <select id="child" name="child">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                </select>
+            </form>
+            <button>Check availability</button>
+        </div>
+    </div>
+    <!-- <button class="moving"></button> -->
+    <div class="forth--screen">
+        <div class="text--images">
+            <div class="forth--text">
+                <p class="colorful">ABOUT US</p>
+                <p class="big">Welcome To <br>
+                    Roberto Hotel Luxury</p>
+                <p class="small">
+                    With over 340 hotels worldwide, NH Hotel Group offers a wide variety of hotels catering for a
+                    perfect
+                    stay no matter where your destination.
+                </p>
+                <p class="name">
+                    <span class="black">Manager:</span>
+                    <span class="aqua">Michen Taylor</span>
+                </p>
+                <img src="https://preview.colorlib.com/theme/roberto/img/core-img/signature.png.webp" alt="signature">
+            </div>
+            <div class="forth--images">
+                <div class="images--row">
+                    <div class="row--first"><img src="https://preview.colorlib.com/theme/roberto/img/bg-img/13.jpg.webp"
+                            alt=""></div>
+                    <div class="row--second"><img
+                            src="https://preview.colorlib.com/theme/roberto/img/bg-img/14.jpg.webp" alt=""></div>
+                </div>
+                <div class="images--column">
+                    <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/15.jpg.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <button>
+                        <!--<i class="fa-solid fa-steering-wheel"></i>-->Transportation
+                    </button>
+                </li>
+                <li>
+
+                    <button>
+                        <!--<i class="fa-regular fa-flower-tulip"></i>-->Reiseservice
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <!--<i class="fa-regular fa-fork-knife"></i>-->Spa Relaxtion
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <!--<i class="fa-regular fa-champagne-glasses"></i>-->Restaurant
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <!--<i class="fa-solid fa-steering-wheel"></i>-->Bar & Drink
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="fifth--screen">
+        <div class="fifth--image">
+            <button>Previous</button>
+        </div>
+        <div class="fifth--color">
+            <p class="title">Best King Room</p>
+
+            <div class="dollar--day">
+                <span class="dollar">$125</span>
+                <span class="day">/ Day</span>
+            </div>
+
+            <table>
+                <tr>
+                    <td><i class="fa-solid fa-check"></i>Size</td>
+                    <td>:30ft</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-check"></i>Capacity</td>
+                    <td>:Max Persion 5</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-check"></i>Bed</td>
+                    <td>:King beds</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-check"></i>Services</td>
+                    <td>:Wifi, Television, Bathroom</td>
+                </tr>
+            </table>
+            <button>View Details</button>
+            <div class="fifth--button">
+                <button>Next</button>
+            </div>
+        </div>
+    </div>
+    <div class="sixth--screen">
+        <div class="sixth--photo">
+            <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/10.jpg" alt="girl">
+        </div>
+        <div class="sixth--text">
+            <p class="aqua">TESTIMONIALS</p>
+            <p class="big">Our Guests Love Us</p>
+            <p class="little">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, commodi aliquid?
+            </p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="name">
+                <span class="black">Robert Downey</span>
+                <span class="aqua">-CEO Deercreative</span>
+            </p>
+            <div class="buttons">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+        </div>
+    </div>
+    <div class="seventh--screen">
+        <div class="room">
+            <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/9.jpg.webp" alt="">
+            <div class="room--card">
+                <p class="small">Entertainment</p>
+                <p class="big">Racing bike</p>
+            </div>
+            <div class="room--aqua--black">
+                <div class="aqua">
+                    <p class="aqua--small">Entertainment</p>
+                    <p class="aqua--big">Racing bike</p>
+                    <p class="long">I focus a lot on helping the first time or inexperienced traveler head out prepared
+                        and confident...</p>
+                </div>
+                <div class="black">
+                    <p>Discover now</p>
+                </div>
+            </div>
+        </div>
+        <div class="pool">
+            <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/5.jpg.webp" alt="">
+            <div class="pool--card">
+                <p class="small">Entertainment</p>
+                <p class="big">Racing bike</p>
+            </div>
+            <div class="pool--aqua--black">
+                <div class="aqua">
+                    <p class="aqua--small">Entertainment</p>
+                    <p class="aqua--big">Racing bike</p>
+                    <p class="long">I focus a lot on helping the first time or inexperienced traveler head out prepared
+                        and confident...</p>
+                </div>
+                <div class="black">
+                    <p>Discover now</p>
+                </div>
+            </div>
+        </div>
+        <div class="food">
+            <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/6.jpg.webp" alt="">
+            <div class="food--card">
+                <p class="small">Entertainment</p>
+                <p class="big">Racing bike</p>
+            </div>
+            <div class="food--aqua--black">
+                <div class="aqua">
+                    <p class="aqua--small">Entertainment</p>
+                    <p class="aqua--big">Racing bike</p>
+                    <p class="long">I focus a lot on helping the first time or inexperienced traveler head out prepared
+                        and confident...</p>
+                </div>
+                <div class="black">
+                    <p>Discover now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="eigth--screen">
+        <div class="eigth--text">
+            <p class="blog">Our Blog</p>
+            <p class="news--event">Latest News & Event</p>
+        </div>
+        <div class="eigth--images">
+            <div class="motivate">
+                <div class="image">
+                    <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/2.jpg.webp" alt="">
+                </div>
+                <div class="date--event">
+                    <p class="date">JAN 02, 2019</p>
+                    <p class="event">EVENT</p>
+                </div>
+                <div class="learn">
+                    <p>Learn how to motivate yourself</p>
+                </div>
+                <div class="small">
+                    <p>How many free autoresponders have you tried? And how many emails did you get through using them?
+                    </p>
+                </div>
+                <i class="fa-solid fa-right"></i>
+            </div>
+
+
+
+
+            <div class="run">
+                <div class="image">
+                    <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/3.jpg.webp" alt="">
+                </div>
+                <div class="date--event">
+                    <p class="date">JAN 02, 2019</p>
+                    <p class="event">EVENT</p>
+                </div>
+                <div class="what">
+                    <p>Learn how to motivate yourself</p>
+                </div>
+                <div class="small">
+                    <p>How many free autoresponders have you tried? And how many emails did you get through using them?
+                    </p>
+                </div>
+                <i class="fa-solid fa-right"></i>
+            </div>
+
+
+
+
+            <div class="abs">
+                <div class="image">
+                    <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/4.jpg.webp" alt="">
+                </div>
+                <div class="date--event">
+                    <p class="date">JAN 02, 2019</p>
+                    <p class="event">EVENT</p>
+                </div>
+                <div class="six">
+                    <p>Learn how to motivate yourself</p>
+                </div>
+                <div class="small">
+                    <p>How many free autoresponders have you tried? And how many emails did you get through using them?
+                    </p>
+                </div>
+                <i class="fa-solid fa-right"></i>
+            </div>
+        </div>
+    </div>
+    <div class="ninth--screen">
+        <div class="ninth--text">
+            <p class="ninth--big">Contact us now!</p>
+            <p class="ninth--little">Contact (+12) 345-678-9999 to book directly or for advice</p>
+        </div>
+        <div class="ninth--button">
+            <button>Contact Now</button>
+        </div>
+    </div>
+    <div class="tenth--screen">
+        <div><img src="https://preview.colorlib.com/theme/roberto/img/core-img/p1.png.webp" alt=""></div>
+        <div><img src="https://preview.colorlib.com/theme/roberto/img/core-img/p2.png.webp" alt=""></div>
+        <div><img src="https://preview.colorlib.com/theme/roberto/img/core-img/p3.png.webp" alt=""></div>
+        <div><img src="https://preview.colorlib.com/theme/roberto/img/core-img/p4.png.webp" alt=""></div>
+        <div><img src="https://preview.colorlib.com/theme/roberto/img/core-img/p5.png.webp" alt=""></div>
+    </div>
+    <div class="eleventh--screen">
+        <div class="column">
+            <div class="roberto">
+                <img src="https://preview.colorlib.com/theme/roberto/img/core-img/logo.png" alt="title">
+                <p class="number">+12 345-678-9999</p>
+                <p class="email">Info.colorlib@gmail.com</p>
+                <p class="place">856 Cordia Extension Apt. 356, Lake <br> Deangeloburgh, South Africa</p>
+            </div>
+            <div class="blog">
+                <p class="title">Our Blog</p>
+                <div class="blog--items">
+                    <p class="freelance">Freelance Design Tricks How</p>
+                    <p class="time"><i class="fa-regular fa-clock"></i>Jan 02, 2019</p>
+                </div>
+                <div class="blog--items">
+                    <p class="freelance">Freelance Design Tricks How</p>
+                    <p class="time"><i class="fa-regular fa-clock"></i>Jan 02, 2019</p>
+                </div>
+            </div>
+            <div class="links">
+                <p class="links--heading">Links</p>
+                <ul>
+                    <li>About us</li>
+                    <li>Our room</li>
+                    <li>Career</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+            <div class="subs">
+                <p class="subs--title">Subscribe Newsletter</p>
+                <p class="subs--little">Subscribe our newsletter gor get notification about new updates.</p>
+                <div class="form">
+                    <input type="email" id="email" name="email" placeholder="Enter your email...">
+                </div>
+            </div>
+            <!-- <div class="copyright">
+            <div class="text"></div>
+            <div class="media">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div> -->
+        </div>
+        <hr>
+        <div class="twelveth--screen">
+            <div class="copyright">
+                <p>Copyright ©2022 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by Colorlib</p>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="eight--screen">
+        <div class=room--card>
+            <div class="aqua">
+                <p class="small">Entertainment</p>
+                <p class="big">Racing bike</p>
+                <p class="long">I focus a lot on helping the first time or inexperienced traveler head out prepared
+                    and confident...</p>
+            </div>
+            <div class="black">
+                <p>Discover now</p>
+            </div>
+        </div>
+        <div class="pool--card">
+            <div class="aqua">
+                <p class="small">Entertainment</p>
+                <p class="big">Racing bike</p>
+                <p class="long">I focus a lot on helping the first time or inexperienced traveler head out prepared
+                    and confident...</p>
+            </div>
+            <div class="black">
+                <p>Discover now</p>
+            </div>
+        </div>
+        <div class="food--card">
+            <div class="aqua">
+                <p class="small">Entertainment</p>
+                <p class="big">Racing bike</p>
+                <p class="long">I focus a lot on helping the first time or inexperienced traveler head out prepared
+                    and confident...</p>
+            </div>
+            <div class="black">
+                <p>Discover now</p>
+            </div>
+        </div>
+    </div> -->
+</body>
+
+</html>
